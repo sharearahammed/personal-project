@@ -1,0 +1,116 @@
+/*for desktop*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*-------------------nav-bar start----------------*/
+
+.navbar-logo {
+	text-align:left;
+}
+.nav-heading h1{
+	text-align:right;
+}
+.navbar-manu {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	text-decoration:none;
+}
+.navbar-manu a{
+	padding:5px 10px;
+	margin:20px 0;
+	background-color:transparent;
+	
+}
+
+/*-------------------nav-bar End----------------*/
+
+
+/*-------------------Profile start----------------*/
+.profile .top-image{
+	position:absolute;
+	right:100px;
+	top:20px;
+	transition:width transform 3s;
+}
+.profile .top-image:hover{
+	width:100px;
+	height:100px;
+}
+.profile .bottom-image{
+	position:absolute;
+	left:100px;
+	transition:width transform 3s;
+	
+}
+.profile .bottom-image:hover{
+	width:100px;
+	height:100px;
+}
+
+
+/*-------------------Profile End----------------*/
+
+
+/*-------------------About Me start----------------*/
+
+.aboutme-image{
+	margin-top:80px;
+}
+.aboutme-image>img{
+	width:40%;
+	height:40%;
+	
+}
+.about-me-desc p{
+	text-align:left;
+}
+
+
+/*-------------------About Me End----------------*/
+
+
+/*-------------------Card Start----------------*/
+
+
+
+
+
+/*-------------------Card End----------------*/
+
+
+
+/*-------------------achivement-contact Start----------------*/
+
+.achivement{
+	padding-right:50px;
+}
+
+
+
+
+/*-------------------achivement-contact End----------------*/
+
+/*-------------------footer Start----------------*/
+.footer-menu{
+	margin-top:12px;
+}
+.footer-menu a{
+	display:inline;
+	margin-top:10px;
+	padding:10px;
+}
+
+
+/*-------------------Footer End----------------*/
